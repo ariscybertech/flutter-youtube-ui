@@ -60,15 +60,15 @@ class _YoutubeMainState extends State<YoutubeMain> {
           onTap: _onTapped,
           items: [
             BottomNavigationBarItem(
-                title: Text("Home"), icon: Icon(Icons.home)),
+                 icon: Icon(Icons.home)),
             BottomNavigationBarItem(
-                title: Text("Trending"), icon: Icon(Icons.whatshot)),
+                 icon: Icon(Icons.whatshot)),
             BottomNavigationBarItem(
-                title: Text("Subscriptions"), icon: Icon(Icons.subscriptions)),
+                icon: Icon(Icons.subscriptions)),
             BottomNavigationBarItem(
-                title: Text("Inbox"), icon: Icon(Icons.mail)),
+                 icon: Icon(Icons.mail)),
             BottomNavigationBarItem(
-                title: Text("Library"), icon: Icon(Icons.folder)),
+                 icon: Icon(Icons.folder)),
           ]),
     );
   }

@@ -113,7 +113,6 @@ class LibraryScreen extends StatelessWidget {
             children: <Widget>[
               Text("Playlist"),
               DropdownButton(
-                style: Theme.of(context).textTheme.body1,
                 items: [
                   DropdownMenuItem(child: Text("(Recently added)")),
                   DropdownMenuItem(child: Text("(A - Z)")),

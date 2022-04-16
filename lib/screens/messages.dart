@@ -136,7 +136,6 @@ class _MessagesScreenState extends State<MessagesScreen> with AutomaticKeepAlive
           ),
           Text(
             "Get started by adding friends",
-            style: Theme.of(context).textTheme.title,
           ),
           Container(
             padding: const EdgeInsets.only(top: 8.0, bottom: 16.0),
